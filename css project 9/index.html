@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-teal-600">
+    <div class="mt-5 ml-4 mr-4" >
+        <div class=" flex bg-emerald-900 text-white h-20 justify-center items-center"> Header</div>
+        <div class="flex mt-10">
+            <div class=" flex justify-center items-center text-white bg-green-600 w-80 h-[480px]">Aside</div>
+            <div class="  bg-yellow-700 w-9/12 h-[480px] ml-10 flex justify-center items-end">
+                <div class="  items-end  flex-col w-full mb-5  ">
+                    <div class="mt-5  flex justify-center items-center text-white">Article</div>
+                    <div class="mt-5  flex justify-center items-center h-40  ">
+                        <div class="bg-amber-400 shrink mr-10 w-40 h-40 flex justify-center items-center text-white ">Image</div>
+                        <div class="bg-amber-400 shrink mr-10 w-40 h-40 flex justify-center items-center text-white">Image</div>
+                        <div class="bg-amber-400 shrink w-40 h-40  flex justify-center items-center text-white" >Image</div>
+                        
+                    </div>
+                </div>
+                
+              
+                
+            </div>
+        </div>
+    </div>
+  </h1>
+</body>
+</html>
